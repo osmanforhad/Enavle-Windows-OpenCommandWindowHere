@@ -1,0 +1,21 @@
+Step One: Press Windows key and + R from the keyboard to open the Run command. Type regedit and then hit enter from the keyboard to open the registry.
+
+Step Two: Go to the following path: HKEY_CLASSES_ROOT\Directory\shell\cmd
+Right-click the cmd key. Scroll to Permissions and then click it.
+
+Step Three: Click Advanced.
+
+Step Four: Click the Change link.
+
+Step Five: Type your user account name and click ‘Check Names’ to verify it. Click OK when you are done.
+
+Step Six: Check ‘Replace owner on subcontainers and objects’. Click Apply and then OK.
+
+Step Seven: In ‘Permissions for cmd’ window, select the Administrator account. Check Allow for full control option. Click Apply and then OK.
+
+Step Eight: Inside the cmd key (right window), right click HideBasedOnVelocityId and then click Rename.
+
+Step Nine: Rename the DWORD from HideBasedOnVelocityId to ShowBasedOnVelocityId, then hit Enter from the keyboard.
+
+You are done. When you press shift from the keyboard and then right-click on any folder,
+you will have the ‘Open command window here’ option on the Windows 10 Context Menu.
